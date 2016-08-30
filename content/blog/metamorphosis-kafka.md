@@ -1,6 +1,6 @@
 +++
 date = "2015-12-21T04:03:46-06:00"
-draft = false
+draft = true
 title = "Metamorphosis by Franz Kafka"
 
 +++
