@@ -1,0 +1,32 @@
+baseurl = "/" 
+builddrafts = false
+canonifyurls = true
+contentdir = "content"
+languageCode = "en-US"
+layoutdir = "layouts"
+publishdir = "public"
+author = "Loïc Tosser <wowi42>"
+title = "Wowi.io"
+pygmentsuseclasses = true
+disqusShortname = "wowiio" # Comment out to disable Disqus.
+pluralizelisttitles = false
+
+[permalinks]
+fixed = ":title/"
+blog = "blog/:year/:month/:day/:slug/"
+
+[params]
+Author = "Loïc Tosser <wowi42>"
+CacheBuster = true
+DateForm = "Jan 2, 2006"
+DateFormFull = "Mon Jan 2 2006 15:04:05 MST"
+Description = "Angry Nerd!!!"
+Email = "wowi@wowi.io"
+FaviconFile = "img/leaf.ico"
+GATracker = "UA-51698155-1"
+GitHub = "//github.com/wowi42"
+Initials = "lt" # Displayed on single post page; DEPRECATED in v0.3.0.
+Lang = "en"
+LinkedIn = "//linkedin.com/in/ltosser"
+Twitter = "//twitter.com/wowi42"
+ExtraCssFiles = [ "/css/override.css" ] # In your `static/css`, add/remove files as necessary.
