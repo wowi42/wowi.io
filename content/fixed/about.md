@@ -1,18 +1,25 @@
 +++
-date = "2015-08-22T06:42:21-07:00"
+date = "2016-08-22T06:42:21-07:00"
 draft = false
-title = "About"
+title = "About Me"
 
 +++
 
-Along with [Ford Prefect](https://en.wikipedia.org/wiki/Ford_Prefect_\(character\)), Dent barely escapes the Earth's destruction as it is demolished to make way for a *hyperspace bypass*. Arthur spends the next several years, still wearing his dressing gown, helplessly launched from crisis to crisis while trying to straighten out his lifestyle. 
+"Release faster, and automate more"
+--
 
-> He rather enjoys tea, but seems to have trouble obtaining it in the far reaches of the galaxy. 
+Lead Engineer, between Development, Q&A and Operations:
+- Strong Unix/Linux system administration skills, exceptional troubleshooting aptitude. A Bachelor Degree in Computer Science brought development and scripting skills into the picture. Mastery in CI/CD.
+- Large skill set across artificial intelligence, machine learning and statistics
+- Strong skills in Q&A: unit testing, integration tests, system tests.
+- Years of Site Reliability Engineering experience, strong knowledge in embedded system, Big Data, metrics/KPI and telecommunications.
 
-In time, he learns how to fly and carves a niche for himself as a sandwich-maker.
+Top Technologies:
+- Programming languages: Go, C, Python, shell scripting
+- DataStores: PostGreSQL, ElasticSearch, OrientDB, Redis, MySQL/MariaDB
+- OS/Virtualization/Containers: FreeBSD, Fedora, CentOS, Archlinux, Ubuntu, Xen, Docker, Jails
+- CI/CD: Jenkins, Rundeck, Ansible, Puppet, Travis, coveralls
+- Monitoring/Metrics/KPIs: Zabbix, TICK stack, ELK stack, Grafana, Monit/MMonit
+- Logs: Logentries, ELK stack, Loggly
+- Others: RabbitMQ, NGiNX
 
-<img src="//placehold.it/300x300" class="profile">
-
-<br />
-
-[About this site](colophon/)
