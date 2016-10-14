@@ -25,17 +25,23 @@ Armed with this information, you can instantly break down our huge to-do list in
 # Browser and device support levels
 
 To set the scope of browser and device support easily with clients and to avoid those “bad conversations,” we’ve found that being up front about our “levels of support” really helps. Below are some simple definitions that you can apply to each page type you test.
-* Support level 1: fully supported browsers and devices
-  * All content must be readable.
-  * All functionality must work.
-  * Deviation from approved graphic design must be minimized.
-* Support level 2: partially supported browsers and devices
-  * All content must be readable.
-  * Navigation must work.
-  * Business login functionality must degrade gracefully.
-  * Any degradation to presentation must not obscure content.
-* Support level 3: unsupported browsers and devices
-  * No support or testing is required.
+
+#### Support level 1: fully supported browsers and devices
+
+* All content must be readable.
+* All functionality must work.
+* Deviation from approved graphic design must be minimized.
+
+#### Support level 2: partially supported browsers and devices
+
+* All content must be readable.
+* Navigation must work.
+* Business login functionality must degrade gracefully.
+* Any degradation to presentation must not obscure content.
+
+#### Support level 3: unsupported browsers and devices
+
+* No support or testing is required.
 
 # Performance support levels
 
@@ -44,6 +50,7 @@ You might also want to agree with your client on a performance target. The quick
 # Tools for managing your test plan
 
 We did the choice to use GitHub. With Github, you are able to do the following:
+
 * add bugs, issues and tasks in an ordered and segmented list, with the ability to tag (priority, system critical, etc.)
 * assign bugs, issues and tasks to members of your team (or to yourself), with due dates
 * comment on bugs, issues and tasks
@@ -69,10 +76,10 @@ explain why.
 
 
 **Environment**:
-- **Browser information**:
-- **OS**:
-- **Installed tools/extensions**:
-- **Others**:
+**Browser information**:
+**OS**:
+**Installed tools/extensions**:
+**Others**:
 
 
 **What happened**:
