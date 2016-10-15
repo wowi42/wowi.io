@@ -1,4 +1,5 @@
 baseurl = "/" 
+theme = "cocoa"
 builddrafts = false
 canonifyurls = true
 contentdir = "content"
