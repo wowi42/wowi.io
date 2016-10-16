@@ -9,7 +9,7 @@ __You are facing performance issues? It's time to fix your problem__
 
 Just imagine this situation:
 
-* you are developing an web application
+* you are developing a web application
 * you had to release fast, so your code isn't perfect and scalable
 * you start to grow
 * and you start to see some performance issues
