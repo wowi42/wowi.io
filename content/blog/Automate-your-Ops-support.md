@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 date = "2016-10-17T03:17:27+04:00"
 title = "Automate your Ops support"
 
