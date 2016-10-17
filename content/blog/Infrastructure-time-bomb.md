@@ -40,7 +40,7 @@ It's time to scale out:
 
 > it's not because you are scaling out, that you need to have a lot of tiny workers, you can still use big workers, just multiple of them
 
-If your team is not able to manage the code + the infrastructure, use some external services!!! To be able to maintain a cluster of MySQL/PostGreSQL/Hadoop, it's painful, and your ops team will be probably more useful with helping the dev to deliver better softwares.
+If your team is not able to manage the code + the infrastructure, **use some external services**! To be able to maintain a cluster of MySQL/PostGreSQL/Hadoop, it's painful, and your ops team will be probably more useful with helping the dev to deliver better softwares.
 
 You can see my presentation on how to increase your deployment quality and how to build reliable  applications [Bunkr](http://bunkrapp.com/present/ojv16q/?utm_medium=share)
 
