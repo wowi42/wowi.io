@@ -40,7 +40,7 @@ Ow, pricing is quiet different now, and good news, if you choose the OVH hosted 
 
 So hosted solution will cost you $122,700/year.
 
-> Wait a second Loïc, so hosting yourself is cheaper than a service?
+> Wait a second Loïc, hosting yourself is cheaper than a service?
 
 Wrong, young padawan: you forget to include your human resources!
 
