@@ -26,6 +26,7 @@ Email = "wowi@wowi.io"
 FaviconFile = "img/leaf.ico"
 GATracker = "UA-51698155-1"
 GitHub = "//github.com/wowi42"
+HighlightJS = true
 Initials = "lt" # Displayed on single post page; DEPRECATED in v0.3.0.
 Lang = "en"
 LinkedIn = "//linkedin.com/in/ltosser"
