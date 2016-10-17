@@ -56,6 +56,6 @@ you want a worst scenario: try to host it with some nice Object Storage, like Ce
 
 The previous cost seems not so high finally, no?
 
-So how this companies are doing so much cash with this services? **Automation**: their system are industrialized.
+So how this companies are doing so much cash with this services? **Automation**: their systems are industrialized.
 
 So please, next time that you wan to host smoething yourself, calculate the real **complete** cost!
