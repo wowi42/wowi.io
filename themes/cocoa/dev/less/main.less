@@ -143,6 +143,11 @@ section {
     width: 100%;
 }
 
+// Introduced for https://github.com/nishanths/cocoa-hugo-theme/issues/7.
+.container .content {
+  width: 100%;
+}
+
 @media (min-width: @wide-1-breakpoint) {
     section {
         padding: 0 @vspacing/2;
@@ -281,6 +286,8 @@ section.icons {
     }
 
     .content {
+        width: auto;
+
         a {
             margin-left: 6px;
             margin-right: 6px;
@@ -571,7 +578,7 @@ img {
 }
 
 img.profile {
-  min-width:100%;
+    min-width:100%;
 }
 
 @media (min-width: @wide-1-breakpoint) {
