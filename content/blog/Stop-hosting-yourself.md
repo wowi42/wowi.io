@@ -58,4 +58,4 @@ The previous cost seems not so high finally, no?
 
 So how this companies are doing so much cash with this services? **Automation**: their systems are industrialized.
 
-So please, next time that you wan to host smoething yourself, calculate the real **complete** cost!
+So please, next time that you wan to host something yourself, calculate the **real complete cost**!
