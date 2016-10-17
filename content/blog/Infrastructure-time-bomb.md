@@ -30,7 +30,7 @@ So when you start to see this, it's time to act and to plan.
 
 First of all, do a quick fix: increase the CPU, RAM, move to SSD. That's what we call upscale. But what will happen when you will reach this limits again? You will be growing and growing until you explode, so you are simply dead.
 
-So like I said before, it's time to planned. You will have to rewrite some code, probably change some technologies, and you need to calculate when you will reach this explosion date, to be able to fix everything before this date.
+So like I said before, it's time to plan. You will have to rewrite some code, probably change some technologies, and you need to calculate when you will reach this explosion date, to be able to fix everything before this date.
 
 It's time to scale out:
 
