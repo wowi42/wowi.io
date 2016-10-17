@@ -1,6 +1,6 @@
 +++
 title = "Stop hosting yourself"
-draft = true
+draft = false
 date = "2016-10-18T02:56:11+04:00"
 
 +++
