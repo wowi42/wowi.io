@@ -18,4 +18,4 @@ else if error == 102:
     //do something different
 ```
 
-So how is that possible to still see this kind of system? And just imagine, you have a bunck of experts, but they are doing the task of a robot?
+So how is that possible to see this kind of system? You have a bunch of experts but they are doing the robot's tasks? That's a complete waste of money!
