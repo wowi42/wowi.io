@@ -56,4 +56,4 @@ Regarding the format, we are using this format
 }
 ```
 
-It's working well, and we are very happy about it, but be careful: logs are not here for monitoring nor real-time alerting, it's used for post-mortem.
+It's working well, and we are very happy about it, but be careful: *logs are not here for monitoring nor real-time alerting, it's used for post-mortem.*
