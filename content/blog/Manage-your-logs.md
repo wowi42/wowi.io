@@ -1,6 +1,6 @@
 +++
 title = "Manage your logs"
-draft = true
+draft = false
 date = "2016-10-19T03:11:59+04:00"
 
 +++
