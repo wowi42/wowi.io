@@ -64,7 +64,7 @@ This part is the worst one. As written before, target of DevOps culture is trans
 
 * ```<app>``` ok, but theoretically your app is in a Git repo, so you don't need the name of the app.
 * ```<environment>``` your environment should never be a manual parameter, it depends of your git branch or a tag, for example, branch dev will deploy to dev, when branch master will deploy to prod. Furthermore, if you want something clean, every commit on every branch should have his own deployment reachable at the address http://<git_commit>.<yourapp>.com
-* ```<num_servers>``` and <server_size>: why? Again, the automation is the key of every scalable and devops platform, it should not be managed in a script. The vertical and horizontal scaling should not be managed manually, it's a job for robots.
+* ```<num_servers>``` and ```<server_size>```: why? Again, the automation is the key of every scalable and devops platform, it should not be managed in a script. The vertical and horizontal scaling should not be managed manually, it's a job for robots.
 
 At the end, the test is just showing that it's not a devops test, just an AWS engineer test, and you don't have any notion of real DevOps (code as a pipeline, CI/CD, automation, agility in the infrastructure), and the test is provided by some IT guys, so it reflects the culture of your company.
 
