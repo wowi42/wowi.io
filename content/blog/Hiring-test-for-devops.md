@@ -7,9 +7,9 @@ date = "2016-10-20T04:16:49+04:00"
 
 Few days ago, I've received a call from a very nice recruiter (Robbie from [Digital Gurus](http://www.digitalgurus.co.uk/)) regarding a position of DevOps engineer. Even if I'm happy with my current position, I like a lot to challenge myself, and I think that's a good way to do it.
 
-I've signed a NDA regarding the company, but I can reveal some informations that I received before the NDA. It's a startup with a very good seed financement which want to become the Amazon of Middle East.
+I've signed a NDA regarding the company, but I can reveal some informations that I received before the NDA. It's a startup with a very good seed funding which want to become the Amazon of Middle East.
 
-Knowing this, I was waiting for some great tests but I was completely disappointed when I've open the PDF containing the test.
+Knowing this, I was waiting for some great tests but I was completely disappointed when I've open the PDF.
 
 Please find below my feedback step by step
 
