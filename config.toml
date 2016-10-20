@@ -9,7 +9,7 @@ publishdir = "public"
 author = "Loïc Tosser <wowi42>"
 title = "Wowi.io"
 pygmentsuseclasses = true
-#disqusShortname = "wowiio" # Comment out to disable Disqus.
+disqusShortname = "wowi-io" # Comment out to disable Disqus.
 pluralizelisttitles = false
 RSSLink = "/rss"
 
