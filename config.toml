@@ -12,6 +12,7 @@ pygmentsuseclasses = true
 #disqusShortname = "wowi-io" # Comment out to disable Disqus.
 pluralizelisttitles = false
 RSSLink = "/rss"
+googleAnalytics = "UA-51698155-1"
 
 [permalinks]
 fixed = ":title/"
