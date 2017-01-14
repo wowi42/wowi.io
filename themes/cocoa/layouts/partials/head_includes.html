@@ -10,45 +10,47 @@
 
 <!-- CSS -->
 
-{{ if .Site.Params.HighlightJS }}
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+{{ if .Site.Params.highlightjs }}
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css">
 {{ end }}
 
+<!-- Fonts and icon CSS -->
 
-{{ if eq true .Site.Params.CacheBuster }}
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
 
-<link rel="stylesheet" href="/css/reset.css">
-<link rel="stylesheet" href="/css/pygments.css">
-<link rel="stylesheet" href="/css/main.css">
+{{ if .Site.Params.cachebuster }}
 
-{{range .Site.Params.ExtraCssFiles}}
-    <link rel="stylesheet" href="{{.}}">
-{{end}}
+    {{ $t := .Now.Unix }}
+    <link rel="stylesheet" href="/css/reset.css?t={{$t}}">
+    <link rel="stylesheet" href="/css/pygments.css?t={{$t}}">
+    <link rel="stylesheet" href="/css/main.css?t={{$t}}">
+    {{range .Site.Params.extracssfiles}}
+        <link rel="stylesheet" href="{{.}}?t={{$t}}">
+    {{ end }}
 
 {{ else }}
 
-<link rel="stylesheet" href="/css/reset.css?{{ .Now.Unix }}">
-<link rel="stylesheet" href="/css/pygments.css?{{ .Now.Unix }}">
-<link rel="stylesheet" href="/css/main.css?{{ .Now.Unix }}">
-
-{{range .Site.Params.ExtraCssFiles}}
-    <link rel="stylesheet" href="{{.}}?{{ .Now.Unix }}">
-{{end}}
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/pygments.css">
+    <link rel="stylesheet" href="/css/main.css">
+    {{range .Site.Params.extracssfiles}}
+        <link rel="stylesheet" href="{{.}}">
+    {{end}}
 
 {{ end }}
 
 <!-- Icon -->
 <link rel="shortcut icon"
-{{ if .Site.Params.FaviconFile }}
-    href="/{{ .Site.Params.FaviconFile }}"
+{{ if .Site.Params.faviconfile }}
+    href="/{{ .Site.Params.faviconfile }}"
 {{ else }}
     href="/img/favicon.ico"
 {{ end }}
 >
 
 <!-- RSS -->
-{{ if .RSSlink }}
-  <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+{{ if .RSSLink }}
+  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 {{ end }}
 
 <!--[if lt IE 9]>

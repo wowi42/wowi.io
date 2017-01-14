@@ -3,12 +3,20 @@
 
 {{ partial "head.html" . }}
 
-<body lang="{{ .Site.Params.Lang }}">
+<body lang="{{ .Site.Params.lang }}">
 
-<section class="header"> 
+<section class="header">
     <div class="container">
         <div class="content">
-            <a href="/"><div class="name">{{ .Site.Params.Author }}</div></a>
+            {{ if .Site.Params.gravatar }}
+              <a href="/"><img class="avatar" src="https://gravatar.com/avatar/{{ .Site.Params.gravatar }}?s=50" /></a>
+            {{ else if .Site.Params.avatar }}
+              <a href="/"><img class="avatar" src="/{{ .Site.Params.avatar }}" /></a>
+            {{ end }}
+            <a href="/"><div class="name">{{ .Site.Params.author }}</div></a>
+            {{ if .Site.Params.selfIntro }}
+              <h3 class="self-intro">{{ .Site.Params.selfIntro }}</h3>
+            {{ end }}
             <nav>
                 <ul>
                     <a href="/blog/"><li>Blog</li></a>
@@ -24,46 +32,32 @@
     <div class="container">
         <div class="content">
 
-        {{ if .Site.Params.GitHub }}
-            <a href="{{ .Site.Params.GitHub }}" target="_blank">
-                <i class="icon ion-social-github"></i>
-            </a>
-        {{ end }}
-        
-        {{ if .Site.Params.Twitter }}
-            <a href="{{ .Site.Params.Twitter }}" target="_blank">
-                <i class="icon ion-social-twitter"></i>
-            </a>
+        {{ if .Site.Params.github }}
+            <a href="{{ .Site.Params.github }}" target="_blank"><img class="icon" src="/img/github.svg" alt="github" /></a>
         {{ end }}
 
-        {{ if .Site.Params.LinkedIn }}
-            <a href="{{ .Site.Params.LinkedIn }}" target="_blank">
-                <i class="icon ion-social-linkedin"></i>
-            </a>
+        {{ if .Site.Params.twitter }}
+            <a href="{{ .Site.Params.twitter }}" target="_blank"><img class="icon" src="/img/twitter.svg" alt="twitter" /></a>
         {{ end }}
 
-        {{ if .Site.Params.Facebook }}
-            <a href="{{ .Site.Params.Facebook }}" target="_blank">
-                <i class="icon ion-social-facebook larger"></i>
-            </a>
+        {{ if .Site.Params.linkedin }}
+            <a href="{{ .Site.Params.linkedin }}" target="_blank"><img class="icon" src="/img/linkedin.svg" alt="linkedin" /></a>
         {{ end }}
 
-        {{ if .Site.Params.SoundCloud }}
-            <a href="{{ .Site.Params.SoundCloud }}" target="_blank">
-                <i class="icon ion-ios-musical-notes larger"></i>
-            </a>
+        {{ if .Site.Params.facebook }}
+            <a href="{{ .Site.Params.facebook }}" target="_blank"><img class="icon" src="/img/facebook.svg" alt="facebook" /></a>
         {{ end }}
 
-        {{ if .Site.Params.Email }}
-            <a href="mailto:{{ .Site.Params.Email }}">
-                <i class="icon ion-ios-email larger"></i>
-            </a>
+        {{ if .Site.Params.soundcloud }}
+            <a href="{{ .Site.Params.soundcloud }}" target="_blank"><img class="icon" src="/img/soundcloud.svg" alt="soundcloud" /></a>
+        {{ end }}
+
+        {{ if .Site.Params.email }}
+            <a href="mailto:{{ .Site.Params.email }}"><img class="icon" src="/img/email.svg" alt="email" /></a>
         {{ end }}
 
         {{ if .Site.RSSLink }}
-            <a href="{{ .Site.RSSLink }}">
-                <i class="icon ion-social-rss larger"></i>
-            </a>
+            <a href="{{ .Site.RSSLink }}"><img class="icon" src="/img/rss.svg" alt="rss" /></a>
         {{ end }}
         </div>
     </div>
