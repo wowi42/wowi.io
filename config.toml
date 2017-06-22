@@ -18,7 +18,21 @@ googleAnalytics = "UA-51698155-1"
 fixed = ":title/"
 blog = "blog/:year/:month/:day/:slug/"
 
+[[menu.main]]
+name                   = "Blog"
+weight                 = -120
+identifier             = "blog"
+url                    = "/"
+
+[[menu.main]]
+name                   = "About"
+weight                 = -110
+identifier             = "about"
+url                    = "/about/"
+
 [params]
+latestpostscount    =   20
+i18n_flags          =   false
 Author = "Loïc Tosser <wowi42>"
 CacheBuster = true
 DateForm = "Jan 2, 2006"
@@ -33,4 +47,4 @@ Initials = "lt" # Displayed on single post page; DEPRECATED in v0.3.0.
 Lang = "en"
 LinkedIn = "//linkedin.com/in/ltosser"
 Twitter = "//twitter.com/wowi42"
-ExtraCssFiles = [ "/css/override.css" ] # In your `static/css`, add/remove files as necessary.
+#ExtraCssFiles = [ "/css/override.css" ] # In your `static/css`, add/remove files as necessary.
