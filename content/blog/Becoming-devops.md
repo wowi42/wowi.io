@@ -1,7 +1,7 @@
 +++
 draft = false
 date = "2017-04-17T03:17:27+04:00"
-title = "Transform a old-style company to an innovative company"
+title = "Transform an old-style company to an innovative company"
 
 +++
 
