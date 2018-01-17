@@ -1,22 +1,20 @@
 +++
 date = "2018-01-05T02:55:11+04:00"
 title = "Organisation and tools for your startup"
-draft = true
+draft = false
 tags = [ "organisation", "tools", "Manager", "startup" ]
 +++
 
 Let's start with the basic:
 
 * Wake up smiling
-* Do some sport
-* Be shaved
-* Be nicely dressed
+* Do some sport (morning + evening if possible)
 * Don't leave your office with a big list of tasks
 * Be "inbox 0" two times a week, at least
 
 # Mail system
 
-First of all, if you using something else than Gmail, just stop it. Most extensions and tools are wrking for gmail, and gmail is the standard.
+First of all, if you using something else than Gmail, just stop it. Most extensions and tools in this article are working for gmail, and gmail is the standard.
 
 # Time
 
