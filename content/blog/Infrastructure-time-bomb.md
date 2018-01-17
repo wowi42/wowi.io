@@ -5,7 +5,7 @@ title = "Infrastructure time bomb"
 
 +++
 
-__You are facing performance issues? It's time to fix your problem__
+__You are facing performance issues? It's time to fix your problem(s)__
 
 Just imagine this situation:
 

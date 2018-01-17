@@ -23,7 +23,7 @@ Ok, you want a cli tool to do this task, but why Terraform and ansible, and why 
  
 >While the developers are writing code, you want to allow them to deploy code themselves. They should be able to deploy the blog app remotely using a simple command.
 
-Let's start with the bad part: a developer should NEVER release himself. Sysadmin and devops are supposed to provide him the infrastructure as a commodity, but he should only initiate the process of release. This process should include testing, packaging, then deployment, and confirmation of working deployment.
+Let's start with the bad part: a developer should NEVER release himself. Sysadmin and devops are supposed to provide him/her the infrastructure as a commodity, but he should only initiate the process of release. This process should include testing, packaging, then deployment, and confirmation of working deployment.
 
 >Here are the specs you want:
 >- OS: Ubuntu Server 14.04 64-bit
@@ -33,7 +33,7 @@ Let's start with the bad part: a developer should NEVER release himself. Sysadmi
 >- Docker 1.10
 >- Wordpress official Docker image https://hub.docker.com/_/wordpress/
 
-Ubuntu 14.04 + Docker 1.10, why not up to date software? Like Ubuntu 16.04 (LTS) and Docker 1.12? Or even better, an OS designed for this: CoreOS or Rancher. Docker is one of the software which is interacting a lot with the linux kernel, and the only solution to have a good kernel in 14.04.5 is to do a dist-upgrade to instal *lts-xenial to have an up to date kernel. Furthermore, they were talking about Terraform before, why not anymore? 
+Ubuntu 14.04 + Docker 1.10, why not up to date software (2016/10)? Like Ubuntu 16.04 (LTS) and Docker 1.12? Or even better, an OS designed for this: CoreOS or Rancher. Docker is one of the software which is interacting a lot with the linux kernel, and the only solution to have a good kernel in 14.04.5 is to do a dist-upgrade to instal *lts-xenial to have an up to date kernel. Furthermore, they were talking about Terraform before, why not anymore? 
 
 >In developing the solution, use GitHub/BitBucket and try to keep a decent commit history of how you approached the project.
 
