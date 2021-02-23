@@ -1,53 +1,43 @@
-baseurl = "/" 
-theme = "cocoa"
-builddrafts = false
-canonifyurls = true
-contentdir = "content"
-languageCode = "en-US"
-layoutdir = "layouts"
-publishdir = "public"
-author = "Loïc Tosser <wowi42>"
-title = "Wowi.io"
-pygmentsuseclasses = true
-#disqusShortname = "wowi-io" # Comment out to disable Disqus.
-pluralizelisttitles = false
-RSSLink = "/rss"
-googleAnalytics = "UA-51698155-1"
-enableRobotsTXT = true
-
-[permalinks]
-fixed = ":title/"
-blog = "blog/:year/:month/:day/:slug/"
-
-[[menu.main]]
-name                   = "Blog"
-weight                 = -120
-identifier             = "blog"
-url                    = "/"
-
-[[menu.main]]
-name                   = "About"
-weight                 = -110
-identifier             = "about"
-url                    = "/about/"
+baseurl = "/"
+languageCode = "en-us"
+theme = "wowi42"
+paginate = 10
 
 [params]
-latestpostscount    =   20
-i18n_flags          =   false
-author = "Loïc Tosser <wowi42>"
-cachebuster = true
-DateForm = "Jan 2, 2006"
-DateFormFull = "Mon Jan 2 2006 15:04:05 MST"
-Description = "Wowi42: The Angry Nerd! C-Level Engineer strongly opiniated! Only my opinions."
-Email = "wowi@wowi.io"
-FaviconFile = "img/favicon.ico"
-GATracker = "UA-51698155-1"
-GitHub = "//github.com/wowi42"
-HighlightJS = true
-Initials = "lt" # Displayed on single post page; DEPRECATED in v0.3.0.
-Lang = "en"
-LinkedIn = "//linkedin.com/in/ltosser"
-Twitter = "//twitter.com/wowi42"
-#ExtraCssFiles = [ "/css/override.css" ] # In your `static/css`, add/remove files as necessary.
-include_rss = true
-avatar = "img/Loic.jpg"
+  contentTypeName = "post"
+  themeColor = "green"
+  showMenuItems = 4
+  fullWidthTheme = false
+  centerTheme = false
+
+[languages]
+  [languages.en]
+    title = "Wowi42"
+    subtitle = "Wowi42: The Angry Nerd! C-Level Engineer strongly opiniated! Only my opinions."
+    keywords = ""
+    copyright = "DTC"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Wowi42"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "kalvad"
+        name = "Kalvad"
+        url = "https://kalvad.com"
+      [[languages.en.menu.main]]
+        identifier = "opaala"
+        name = "Opaala"
+        url = "https://opaala.com"
+#      [[languages.en.menu.main]]
+#        identifier = "showcase"
+#        name = "Showcase"
+#        url = "/showcase"
