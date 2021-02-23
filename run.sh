@@ -2,4 +2,4 @@
 set -e
 
 ./hugo/hugo
-./node_modules/.bin/http-server
+npm run serve
